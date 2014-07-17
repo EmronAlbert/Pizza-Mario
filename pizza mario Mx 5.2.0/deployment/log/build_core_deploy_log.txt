@@ -1,0 +1,9 @@
+Buildfile: C:\Mendix Projects\pizza mario\deployment\build_core.xml
+
+deploy:
+    [unzip] Expanding: C:\Program Files (x86)\Mendix\5.2.0\modeler\deployment.mxz into C:\Mendix Projects\pizza mario\deployment
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

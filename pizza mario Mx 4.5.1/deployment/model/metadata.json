@@ -1,0 +1,22 @@
+{
+  "RuntimeVersion": "4.5.1",
+  "ProjectID": "1c5b43b8-c6a4-465f-bdb7-be02bd6006ef",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "Admin",
+  "Constants": [
+    {
+      "Name": "PerformanceTool.UsePerformanceTool",
+      "Type": "Boolean",
+      "Description": "To disable the performance tool and database logging completely.",
+      "DefaultValue": "True"
+    }
+  ],
+  "ScheduledEvents": [
+    {
+      "Name": "Administration.UpdateUsageInfo",
+      "Description": ""
+    }
+  ],
+  "Mobile": false
+}

@@ -1,0 +1,32 @@
+{
+  "RuntimeVersion": "5.2.0",
+  "ProjectID": "1c5b43b8-c6a4-465f-bdb7-be02bd6006ef",
+  "ProjectName": "project",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "Admin",
+  "Roles": {
+    "6868f02b-363c-4336-a7ee-74ef3a4bbc00": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "6868f02b-363c-4336-a7ee-74ef3a4bbc00",
+        "e21cafb7-e4fc-40b4-a2ee-65175ad7d074",
+        "c6c17297-52d5-4bdb-9ce0-12692d65b969"
+      ]
+    },
+    "e21cafb7-e4fc-40b4-a2ee-65175ad7d074": {
+      "Name": "User"
+    },
+    "c6c17297-52d5-4bdb-9ce0-12692d65b969": {
+      "Name": "PerformanceTool"
+    }
+  },
+  "AdminRole": "6868f02b-363c-4336-a7ee-74ef3a4bbc00",
+  "Constants": [],
+  "ScheduledEvents": [
+    {
+      "Name": "Administration.UpdateUsageInfo",
+      "Description": ""
+    }
+  ]
+}

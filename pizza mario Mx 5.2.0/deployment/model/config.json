@@ -1,0 +1,12 @@
+{
+  "Configuration": {
+    "DatabaseName": "development",
+    "DatabasePassword": "",
+    "DatabaseType": "HSQLDB",
+    "DatabaseHost": "",
+    "DatabaseUserName": "",
+    "DatabaseUseIntegratedSecurity": "False",
+    "ApplicationRootUrl": "http://localhost:8080/"
+  },
+  "Constants": {}
+}

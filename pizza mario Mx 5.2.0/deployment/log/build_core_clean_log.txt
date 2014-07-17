@@ -1,0 +1,10 @@
+Buildfile: C:\Mendix Projects\pizza mario\deployment\build_core.xml
+
+clean:
+   [delete] Deleting directory C:\Mendix Projects\pizza mario\deployment\model
+   [delete] Deleting directory C:\Mendix Projects\pizza mario\deployment\run
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

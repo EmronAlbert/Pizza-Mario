@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Pizza Mario | 3.0</title>
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />        
+
+		<script type="text/javascript" src="mxclientsystem/dojo/dojo.js"
+			djConfig="
+				usePlainJson: true
+			">
+		</script>
+		<script type="text/javascript" src="mxclientsystem/mendix/mendix.js"></script>
+		<link rel="shortcut icon" href="ui/theme-mario/images/layout/favicon.png" />
+
+    <link type="text/css" rel="stylesheet" href="mxclientsystem/mxui/ui/mxui.css" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="ui/theme-mario/layout.css" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="ui/theme-mario/custom.css" media="screen"/>
+
+        <!--[if IE 6]>
+        <link type="text/css" rel="stylesheet" href="ui/ie6/banner.css" media="screen"/>
+        <![endif]-->
+
+	</head>
+	<body class="tundra">
+		<div class="top">
+			<div dojoType="dijit.layout.BorderContainer"
+				design="headline"
+				gutters="false"
+				id="mainbox"
+				class="MxClient_mainContainer"
+				>
+				<div dojoType="dijit.layout.ContentPane"
+					region="top"
+					id="topPane"
+					class="MxClient_topPane"
+					>
+					<div class="MxClient_headerPane">
+						<div class="MxClient_navigationPane">
+							<a href="index.html" class="MxClient_logoPane png">Mendix</a>	
+							<div class="MxClient_navbar" id="MxClient_navbar" dojoType="mxui.widget.Navbar"></div>
+						</div>
+						<div class="MxClient_toolbar" id="MxClient_toolbar" dojoType="mxui.widget.Toolbar"></div>
+					</div>
+				</div>
+				<div dojoType="dijit.layout.BorderContainer"
+					region="center"
+					design="sidebar"
+					gutters="false"
+          liveSplitters="false"
+					class="MxClient_contentContainer"
+					>
+					<div dojoType="mxui.widget.ScreenBuffer"
+						region="center"
+						id="contentPort"
+						class="MxClient_contentPane"
+						>
+					</div>
+				</div>
+				<div dojoType="dijit.layout.ContentPane"
+					region="bottom"
+					class="MxClient_bottomPane"
+					>
+					<div class="MxClient_footerPane">
+						Powered by <a target="_blank" href="http://www.mendix.com">Mendix</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

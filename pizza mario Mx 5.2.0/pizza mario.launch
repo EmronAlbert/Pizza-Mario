@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/pizza mario"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="M2EE_ADMIN_PASS" value="1"/>
+<mapEntry key="M2EE_ADMIN_PORT" value="8090"/>
+<mapEntry key="M2EE_ADMIN_LISTEN_ADDRESSES" value="*"/>
+<mapEntry key="M2EE_CONSOLE_PATH" value="C:\Program Files (x86)\Mendix\4.5.1\modeler\MendixConsoleLog.exe"/>
+<mapEntry key="MXCONSOLE_SERVER_URL" value="http://127.0.0.1:8090/"/>
+<mapEntry key="MXCONSOLE_RUNTIME_PATH" value="C:\Program Files (x86)\Mendix\4.5.1\runtime"/>
+<mapEntry key="MXCONSOLE_RUNTIME_PORT" value="8080"/>
+<mapEntry key="MXCONSOLE_RUNTIME_LISTEN_ADDRESSES" value="*"/>
+<mapEntry key="MXCONSOLE_BASE_PATH" value="C:\Mendix Projects\pizza mario\deployment"/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.mendix.m2ee.AppContainer"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="pizza mario"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djava.library.path=&quot;C:\Program Files (x86)\Mendix\4.5.1\runtime\lib\x64;C:\Mendix Projects\pizza mario\deployment\model\lib\userlib&quot; -Dfile.encoding=UTF-8 -Djava.io.tmpdir=&quot;C:\Mendix Projects\pizza mario\deployment\data\tmp&quot; -Xmx2048M -Djava.net.preferIPv4Stack=true"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Program Files (x86)\Mendix\4.5.1\server"/>
+</launchConfiguration>

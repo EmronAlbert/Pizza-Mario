@@ -1,0 +1,9 @@
+Buildfile: C:\Mendix Projects\pizza mario\deployment\build_webui.xml
+
+deploy:
+    [unzip] Expanding: C:\Mendix Projects\pizza mario\widgets\SprintrFeedbackWidget.mpk into C:\Mendix Projects\pizza mario\deployment\web\widgets
+     [copy] Copying 5 files to C:\Mendix Projects\pizza mario\deployment\web
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+

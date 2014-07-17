@@ -1,0 +1,369 @@
+/**
+* Theme Name: Pizza Mario
+* Description: Pizza Mario theme for the training-course
+* File: login.css
+* Version: 1.0
+* Date: 21-04-2010
+* Author: Mendix
+* Author URL: http://www.mendix.com
+*
+General HTML
+***************************/
+BODY
+{
+	text-align: center;
+	background: #F1F1F1;
+}
+A
+{
+	text-decoration: none;
+	color: #036BC9;
+}
+A:hover, A:focus
+{
+	text-decoration: underline;
+}
+/*headerPane
+/**************************/
+.top
+{
+	background: url(images/layout/header_bg.png) repeat-x top;
+}
+.MxClient_headerPane
+{
+	background: none;
+}
+.MxClient_navigationPane
+{
+	width: 96%;
+	margin: auto;
+	text-align: left;
+}
+.MxClient_logoPane
+{
+	position: relative;
+	float: left;
+	left: 0;
+	top: 0;
+	height: 56px;
+	width: 156px;
+	margin-right: 20px;
+	text-indent: -9999px;
+	background-image: url(images/layout/logo.png);
+}
+/*toolbar*/
+.mendixToolbar_button
+{
+	margin-right: 5px;
+}
+.mendixToolbar_desktop
+{
+	background-image: url(images/layout/icons/home.png);
+}
+.mendixToolbar_refresh
+{
+	background-image: url(images/layout/icons/refresh.png);
+}
+.mendixToolbar_back
+{
+	background-image: url(images/layout/icons/back.png);
+}
+.mendixToolbar_forward
+{
+	background-image: url(images/layout/icons/forward.png);
+}
+.mendixToolbar_logout
+{
+	background-image: url(images/layout/icons/logout.png);
+}
+.mendixToolbar_devMode, .mendixToolbar_metaModel, .mendixToolbar_print
+{
+	display: none;
+}
+.MxClient_toolbar .mendixToolbar_buttonHover
+{
+	background-color: transparent;
+}
+/*Menu*/
+.tundra .mendixNavbar .dijitToolbar
+{
+	float: left;
+	padding: 11px 0 0;
+	border-style: none;
+	background: none;
+}
+.tundra .dijitToolbar .dijitLeft
+{
+	padding-left: 7px !important;
+	background: url(images/layout/menuItem_bg_left.png) no-repeat left top;
+}
+.tundra .dijitToolbar .dijitRight
+{
+	padding: 2px 0 5px !important;
+	background: url(images/layout/menuItem_bg_right.png) no-repeat right top;
+}
+.tundra .dijitToolbar .dijitButton, .tundra .dijitToolbar .dijitDropDownButton
+{
+	padding: 0;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.mendixNavbar .dijitToolbar .dijitButtonText
+{
+	color: #FFF;
+	padding: 4px 8px 3px 0;
+}
+.tundra .dijitToolbar .dijitButtonHover, .tundra .dijitToolbar .dijitDropDownButtonHover
+{
+	padding: 0;
+	border-style: none;
+	background-color: none;
+}
+.tundra .dijitToolbar .dijitButtonHover .dijitButtonText, .tundra .dijitToolbar .dijitDropDownButtonHover .dijitButtonText
+{
+	color: #000;
+}
+.tundra .dijitMenu
+{
+	color: #FFF;
+	border-style: none;
+	background: #C70706;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 2px 8px #000000;
+}
+.tundra .dijitMenuPassive .dijitMenuItemHover, .tundra .dijitMenuItemSelected
+{
+	color: #FFF;
+	text-decoration: underline;
+	background: none;
+}
+.mendixThemeSwitch
+{
+	float: right;
+	padding-top: 10px;
+}
+.mendixThemeSwitch LABEL
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-right: 10px;
+	text-shadow: 0 1px 0 #000000;
+}
+.MxClient_toolbar
+{
+	float: right;
+	clear: both;
+	width: 148px;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	background: none;
+}
+/*mainbox
+/**************************/
+.mx_layout .MxClient_mainContainer
+{
+	width: 92%;
+	margin: auto;
+	text-align: left;
+}
+.tundra .MxClient_contentContainer
+{
+	margin-top: 10px;
+	background: #FFF;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-bottom-top-radius: 3px;
+	border-bottom-top-radius: 3px;
+	-moz-box-shadow: 2px 2px 7px #888888;
+}
+.tundra .MxClient_contentPane
+{
+	padding: 10px;
+}
+.tundra .mendixDataGrid
+{
+	margin-top: 5px;
+	border-style: none;
+}
+.tundra .mendixFormTitle_title
+{
+	padding: 0 0 0 10px;
+	font-size: 20px;
+}
+.tundra .mendixDataGrid_searchPane, .tundra .templatesystemTemplateGrid_searchPane
+{
+	background: #FFF !important;
+}
+.tundra .mendix_Button_button
+{
+	font-weight: bold;
+	border-style: none;
+	background: none;
+}
+.mendix_Button_image, .mendix_Button
+{
+	margin: 0;
+}
+.mendixFormView_label
+{
+	font-weight: bold;
+}
+.tundra .mendix_Button_button .mendix_Button_content
+{
+	padding: 0 5px;
+}
+.tundra .mendixFormView_headerLabel .mendixFormView_label
+{
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	color: #0176A1;
+	text-shadow: 0 1px 0 #B1E2F0;
+}
+.tundra .mendixFormView_nodeWrapper
+{
+	padding: 3px;
+}
+.tundra .mendixDataGrid_tableData
+{
+	padding: 4px 5px;
+	border-color: none;
+}
+.tundra .mendixDataGrid_tableRowEven
+{
+	background-color: #EBF3FE;
+}
+.tundra .mendixDataGrid_tableRowSelected .mendixDataGrid_tableData
+{
+	color: #69717E;
+	border-color: #CEDEF7;
+	background: #DAEBFF;
+}
+.tundra .mendixDataGrid_gridHead .mendixDataGrid_tableHead
+{
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #FFF;
+	color: #FFF;
+	background: #FFF url(images/layout/btn_bg.png) repeat-x top;
+}
+.tundra .mendixDataGrid_gridHead .mendixDataGrid_tableHeadLast
+{
+	border-right: 1px solid #D3D3D3;
+}
+.tundra .MxClient_formDisabled
+{
+	border-style: none;
+	background: none;
+}
+/*dijitTabPane
+/***************************/
+.tundra .dijitTabPaneWrapper
+{
+	-moz-border-radius-bottomleft: 2px;
+	-moz-border-radius-bottomright: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-webkit-border-bottom-right-radius: 2px;
+	border-bottom-bottom-radius: 2px;
+	border-bottom-bottom-radius: 2px;
+}
+.tundra .dijitTab
+{
+	color: #4F1F18;
+	background: #4B98B5 url(images/layout/tab.png) repeat-x;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	border-bottom-top-radius: 2px;
+	border-bottom-top-radius: 2px;
+}
+.tundra .dijitTabChecked
+{
+	color: #2C5866;
+	border-color: #CCC;
+	text-shadow: none;
+	background: #FFF;
+}
+.tundra .dijitTabContainerTabListNested .dijitTab
+{
+	color: #000;
+	text-shadow: none;
+}
+/*mendixWindow
+/**************************/
+.tundra .mendixWindow
+{
+	padding: 3px;
+	border-style: none;
+	text-align: left;
+	-moz-box-shadow: 2px 2px 7px #888888;
+	border: 1px solid #888;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.tundra .mendixWindow_buttonHover
+{
+	background-color: transparent;
+}
+.tundra .mendixWindow_title
+{
+	color: #FFF;
+	font-size: 1.1em;
+	text-shadow: 0 1px 0 #4891DA;
+}
+.tundra .mendixWindow_header
+{
+	border-style: none;
+	background: #B70B0B url(images/layout/btn_bg.png) repeat-x;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	border-bottom-top-radius: 2px;
+	border-bottom-top-radius: 2px;
+}
+.tundra .mendixFormView_controlPane, .tundra .mendixFormView_tableData, .tundra .mendixFormView_tableHead
+{
+	background: #FFF;
+}
+.tundra .mendixFormView_controlPane
+{
+	border-style: none;
+}
+.tundra .mendixFormView_controlPane .mendix_Button_button, .tundra .mendixDataGrid_searchControlPane .mendix_Button_button, .tundra .templatesystemTemplateGrid_searchControlPane .mendix_Button_button
+{
+	margin-right: 10px;
+	color: #FFF;
+	border-style: none;
+	background: url(images/layout/btn_bg.png) repeat-x top;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.tundra .mendix_Button_buttonHover .mendix_Button_caption
+{
+	text-decoration: underline;
+}
+/*footerPane
+/**************************/
+.MxClient_footerPane
+{
+	padding-left: 10px;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.mendix_Button_buttonHover, .mendix_Button:focus, .mendix_Button:active, .MxClient_Focus, .mendixDataGrid_tableRowSelected > TD
+{
+	/*[disabled]border:1px solid #DFE205;*/
+	background: #FAFAC0 !important;
+	color: #000000 !important;
+	/*[disabled]+box-sizing:border-box;*/
+	/*[disabled]+box-shadow:inset 0px 0px 22px 1px #DFE205;*/
+	/*[disabled]background-color:#EEE109;*/
+}

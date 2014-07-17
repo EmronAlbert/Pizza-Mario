@@ -1,0 +1,9 @@
+Buildfile: C:\Mendix Projects\pizza mario\deployment\build_webui.xml
+
+clean:
+   [delete] Deleting directory C:\Mendix Projects\pizza mario\deployment\web
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

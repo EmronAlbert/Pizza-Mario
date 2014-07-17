@@ -1,0 +1,49 @@
+/**
+* Theme Name: Pizza Mario
+* Description: Pizza Mario theme for the training-course
+* File: login.css
+* Version: 1.0
+* Date: 21-04-2010
+* Author: Mendix
+* Author URL: http://www.mendix.com
+**/
+
+body {
+	background: #F1F1F1;
+}
+.loginResult {
+	color: red;
+}
+.mainContainer {
+	width: 450px;
+	background: url(images/layout/bg_login.png) no-repeat;
+}
+.contentPane {
+	padding-left:40px;
+	width:300px;
+}
+.logoPane {
+	background:none;
+}
+.topPane  {
+	padding-bottom: 38px;
+}
+.formInput {
+	padding: 4px 3px;
+	border:2px solid #C2CDE7;
+}
+.bottomPane {
+	padding-top:45px;
+}
+.formButton {
+	padding: 5px;
+	color: #FFF;
+	font-weight: bold;
+	border-style: none;
+	background: url(images/layout/btn_bg.png) repeat-x;
+	-moz-border-radius: 3px;
+}	
+.formButton:hover,
+.formButton:focus {
+	text-decoration: underline;
+}
