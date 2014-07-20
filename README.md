@@ -1,4 +1,4 @@
-# [Pizza Mario ](https://github.com/mistaguy/Pizza-Mario) : Pizza Mario Project Samples for [Mendix](http://mendix.com/)
+# [Pizza Mario ](https://github.com/mistaguy/Pizza-Mario) : Project Samples for [Mendix](http://mendix.com/)
 
 
 ## Pizza Mario ?
