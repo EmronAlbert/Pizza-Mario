@@ -3,7 +3,7 @@
 
 ## Pizza Mario ?
 
-Pizza Mario is a repository that contains a couple of pizza mario sample projects for different versions of [Mendix](http://mendix.com). pizza mario is tutor sample project that has been used for some time to help Mendix app dev novinces learn how to develop apps on mendix as the word go.I will try to add couple of different mendix projects
+Pizza Mario is a repository that contains a couple of pizza mario sample projects for different versions of [Mendix](http://mendix.com). pizza mario is a tutor sample project that has been used for some time to help Mendix app dev novices learn how to develop apps on mendix as the word go.I will try to add couple of different mendix projects
 
 ##### The following features are available
 * Mendix 4.5.1
